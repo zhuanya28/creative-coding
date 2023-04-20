@@ -1,0 +1,15 @@
+.description{
+    background-color: blue;
+}
+
+.box {
+    display: inline-block;
+    width: 120px;
+    height: 150px;
+
+    margin: 20px;
+    padding: 10px;
+
+    border-width: 1px;
+    border-style: dashed;
+}
