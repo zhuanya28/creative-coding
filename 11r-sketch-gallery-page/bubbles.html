@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CCLab Project</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="libraries/p5.min.js"></script>
+  <!-- Uncomment the line below if you use audio. -->
+  <!-- <script src="libraries/p5.sound.min.js"></script> -->
+</head>
+
+<body>
+
+  <h1 class="title">Cool Bubbles</h1>
+
+  <!-- the following div will contain the p5 canvas. -->
+  <div id="canvasContainer"></div>
+  <div class=" description-box">
+    <p class="description">For this recitation, we were asked to create a particle pattern that would resemble something
+      that we can see in
+      the
+      real world. We ere required to utilize a self-contained Class that would have different properties and multiple
+      methods.
+      Also, we were asked to deploy dynamic arrays.
+
+      So, I have created these bubbles that move depending on the Mouse position (and + they have their own speed as a
+      default. They also slowly disappear and randomly appear on the screen, renewing themselves. Moreover, you can
+      hover
+      and
+      pop them 🙂
+
+      I really liked this shading component and thinking of deploying it in my project a! As well as some kind of
+      bubbles
+      like
+      that.
+
+      What is Object-Oriented Programming (OOP), a Class and an Instance of the Class?
+      OOP is a way of programming that revolves around reusability of the methods and data.
+
+      Class is a data structure that contains properties and methods that could be manipulated hence reused.
+
+      Instance of the class is the object that you can create an “object” that would have the properties and the methods
+      of
+      the class.
+
+      Discuss the effectiveness of OOP. When is OOP useful? In what way can it be utilized?
+      It is very useful when you want to create the same types of objects that have the same properties and methods,
+      meaning
+      that they have the same patterns of behavior but behave differently. With the use of loops and dynamic arrays you
+      can
+      create highly responsive and interesting visuals and interactive experiences that would have been very slow and
+      hurtful
+      otherwise.
+
+      Describe the objects you have created. What properties and methods were implemented? What kind of behaviors did
+      you
+      create by manipulating them?
+      I have created a Class Particle that has position, color, opacity as well as the speed in both directions and
+      size.
+
+      The methods include the independent movement (move()), movement determined by mouse position (moveFrom()),
+      color/opacity
+      (changeColors()), popping hovered that return “pop” if the bubble of hovered on (popIfHovered()), as well as
+      display().
+
+      Please share it if there is any challenging and confusing aspect(s) in the OOP concepts and techniques?
+      I got pretty familiar with all the features at this point (I think), so I don’t have anything about this data
+      structure
+      that confuses me.
+
+      The link to my p5.js sketch: https://editor.p5js.org/zhuanya28/sketches/7jdbC9iAG</p>
+  </div>
+
+  <!-- the script tag below should always be at the bottom, right before the closing body tag -->
+  <script src="sketch-bubbles.js"></script>
+</body>
+
+</html>
