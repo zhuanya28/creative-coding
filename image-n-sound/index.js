@@ -1,17 +1,15 @@
 let img;
 
 function preload() {
-  img = loadImage(
-    "assets/07tylerkevin-review1-videoSixteenByNineJumbo1600.jpg"
-  );
+  img = loadImage("assets/20190917-Tyler-01.webp");
 }
 
 function setup() {
-  createCanvas(400);
+  createCanvas(1000, 1000);
   background(220);
 }
 
 function draw() {
+  tint(200, 200, 0);
   image(img, 0, 0);
-  text("lol", 0, 0);
 }
