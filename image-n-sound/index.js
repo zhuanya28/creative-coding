@@ -10,6 +10,8 @@ function setup() {
 }
 
 function draw() {
-  tint(frameCount % 150, frameCount % 50, frameCount % 255);
+  //   tint(frameCount % 100, frameCount % 50, frameCount % 255);
+  //   filter(INVERT);
   image(img, 0, 0, 1000, 650);
+  filter(THRESHOLD, 0.2);
 }
